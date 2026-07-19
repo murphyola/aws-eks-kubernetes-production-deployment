@@ -34,6 +34,8 @@ module "eks" {
     coredns = {}
 
     eks-pod-identity-agent = {}
+
+    aws-ebs-csi-driver = {}
   }
   tags = {
     Project     = local.project_name

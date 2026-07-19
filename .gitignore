@@ -18,3 +18,24 @@ crash.*.log
 
 # Logs
 *.log
+# Terraform artifacts
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform-apply-output.txt
+graph.dot
+
+# Sensitive variables
+*.auto.tfvars
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
